@@ -1,0 +1,41 @@
+/* body{
+    margin: 0%;
+    padding: 0;
+} */
+h1{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(192, 184, 184);
+    padding-top: 10px;
+}
+.container{
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: rgb(75, 70, 70);
+    width: 45%;
+    height: 360px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+table{
+    margin: auto;
+    padding-top: 10px;
+}
+input{
+    font-size: 20px;
+    width: 190px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: darkgray;
+    border: 2px solid white;
+}
+button{
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: 2px solid white;
+}
