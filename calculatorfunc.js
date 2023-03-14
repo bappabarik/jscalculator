@@ -15,7 +15,9 @@ for (item of buttons) {
             screen.value = screenValue;
         }
         else if (buttonText == '=') {
-            screen.value = eval(screenValue);
+            let result = eval(screenValue);
+            screen.value = '';
+            screen.value = result;
         }
         else {
             screenValue += buttonText;
